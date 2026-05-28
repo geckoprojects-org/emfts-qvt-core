@@ -1,0 +1,29 @@
+{
+  "name": "emfts-qvt-core",
+  "version": "1.0.0",
+  "description": "Shared QVT infrastructure for EMFTs — pattern matching, trace, model extent",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "test:run": "vitest run"
+  },
+  "license": "EPL-2.0",
+  "dependencies": {
+    "emfts": "file:../emfts",
+    "ocl-langium": "file:../ocl-langium"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^4.0.0"
+  }
+}
