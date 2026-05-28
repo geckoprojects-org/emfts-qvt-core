@@ -1,5 +1,5 @@
-import type { EObject, EStructuralFeature } from 'emfts';
-import { BasicEFactory } from 'emfts';
+import type { EObject, EStructuralFeature } from '@emfts/core';
+import { BasicEFactory } from '@emfts/core';
 import type { ObjectTemplateExp, TemplateValue } from '../template/TemplateExp.js';
 import type { Key } from '../model/Key.js';
 import { BindingEnvironment } from './BindingEnvironment.js';

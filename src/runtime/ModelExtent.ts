@@ -1,4 +1,4 @@
-import type { EObject, EClass } from 'emfts';
+import type { EObject, EClass } from '@emfts/core';
 
 /**
  * Container for EObjects in a transformation — like QVTo BasicModelExtent.

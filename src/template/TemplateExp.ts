@@ -1,4 +1,4 @@
-import type { EClass, EStructuralFeature } from 'emfts';
+import type { EClass, EStructuralFeature } from '@emfts/core';
 
 /**
  * Value that a PropertyTemplateItem can bind to.

@@ -1,4 +1,4 @@
-import type { EClass, EStructuralFeature } from 'emfts';
+import type { EClass, EStructuralFeature } from '@emfts/core';
 
 /**
  * Identifies an EClass by a set of structural features — used for

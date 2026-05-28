@@ -1,4 +1,4 @@
-import type { EObject } from 'emfts';
+import type { EObject } from '@emfts/core';
 
 /**
  * A single trace record linking rule execution to source/target bindings.

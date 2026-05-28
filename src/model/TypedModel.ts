@@ -1,4 +1,4 @@
-import type { EPackage } from 'emfts';
+import type { EPackage } from '@emfts/core';
 
 /**
  * Declares a model parameter of a transformation — name + metamodel packages.

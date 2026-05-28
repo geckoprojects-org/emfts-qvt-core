@@ -1,5 +1,5 @@
-import { OclEvaluator, parseOclExpression } from 'ocl-langium';
-import type { Expression } from 'ocl-langium';
+import { OclEvaluator, parseOclExpression } from '@emfts/ocl.langium';
+import type { Expression } from '@emfts/ocl.langium';
 import { BindingEnvironment } from '../runtime/BindingEnvironment.js';
 
 /**

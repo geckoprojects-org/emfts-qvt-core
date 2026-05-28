@@ -1,4 +1,4 @@
-import type { EObject, EClass, EStructuralFeature } from 'emfts';
+import type { EObject, EClass, EStructuralFeature } from '@emfts/core';
 import type { TraceEntry } from './TraceEntry.js';
 
 /**

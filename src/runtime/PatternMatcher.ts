@@ -1,4 +1,4 @@
-import type { EObject } from 'emfts';
+import type { EObject } from '@emfts/core';
 import type { ObjectTemplateExp, TemplateValue } from '../template/TemplateExp.js';
 import { BindingEnvironment } from './BindingEnvironment.js';
 import { ModelExtent } from './ModelExtent.js';

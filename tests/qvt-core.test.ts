@@ -6,8 +6,8 @@ import {
   BasicEReference,
   BasicEFactory,
   EcoreDataTypes,
-} from 'emfts';
-import type { EObject, EClass, EPackage, EAttribute, EReference } from 'emfts';
+} from '@emfts/core';
+import type { EObject, EClass, EPackage, EAttribute, EReference } from '@emfts/core';
 import { BindingEnvironment } from '../src/runtime/BindingEnvironment.js';
 import { ModelExtent } from '../src/runtime/ModelExtent.js';
 import { PatternMatcher } from '../src/runtime/PatternMatcher.js';
